@@ -1,0 +1,25 @@
+{
+  "name": "cli",
+  "preferGlobal": true,
+  "bin": "./cli.js",
+  "version": "1.0.0",
+  "description": "Command line interface nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrotcaraujo/cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrotcaraujo/cli/issues"
+  },
+  "homepage": "https://github.com/pedrotcaraujo/cli#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^4.0.0"
+  }
+}
